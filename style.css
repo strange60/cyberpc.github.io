@@ -1,0 +1,622 @@
+/*Стили для модального окна*/
+
+.popup-fade {
+    display: none;
+}
+
+.popup-fade:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
+
+.popup {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.vdplaybox {
+    max-width: 850px;
+    max-height: 500px;
+    margin: 0px auto;
+}
+
+.video-container {
+    height: 500px;
+}
+
+.lt-title {
+    color: #f00;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.lt-content p {
+    font-size: 17px;
+    padding-bottom: 25px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cp-txt ul li {
+    padding: ;
+    font-size: 18px;
+    list-style-type: disc;
+    color: #ccc;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+
+.cp-txt .iconbox img {
+    margin-right: 8%;
+}
+
+.st {
+
+    width: 100%;
+    height: 42px;
+    font-size: 22px;
+    background: #e2001a;
+    position: relative;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.cp-txt h3 {
+    padding: 42px 0 17px 0;
+}
+
+
+.sl__zag {
+    padding: 23px 0 0 36px;
+}
+
+.peref {
+    width: 100%;
+    display: flex;
+}
+
+.peref__cen {
+    margin: 0 0 0 91px;
+}
+
+.peref__cen a img {
+    width: 100%;
+}
+
+.peref__cen a p {
+    color: #fff;
+    margin: 23px 0 0 0;
+    padding: 0 0 20px 0;
+}
+
+
+/* Модальное окно 2 - Куллер*/
+
+
+.modal-2 {
+    display: none;
+}
+
+.modal-2:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-2_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.img_f {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/*Модальное окно 3 - Материнская плата*/ 
+
+
+.modal-3 {
+    display: none;
+}
+
+.modal-3:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-3_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+
+/*Модальное окно 4 - Оперативная память */
+
+
+.modal-4 {
+    display: none;
+}
+
+.modal-4:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-4_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+
+/*Модальное окно 5 - Видеокарта */
+
+.modal-5 {
+    display: none;
+}
+
+.modal-5:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-5_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+
+/*Модальное окно 6 - Жесткий диск */
+
+.modal-6 {
+    display: none;
+}
+
+.modal-6:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-6_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+/*Модальное окно 7 - Блок питания */
+
+.modal-7 {
+    display: none;
+}
+
+.modal-7:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-7_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+.imgbox-between {
+    display: flex;
+    
+}
+
+.img_b {
+    margin: 0 auto;
+}
+
+
+/*Модальное окно 8 - Корпус или Системный блок */
+
+.modal-8 {
+    display: none;
+}
+
+.modal-8:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-8_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+/*Модальное окно 9 - Периферийные устройства */
+
+.modal-9 {
+    display: none;
+}
+
+.modal-9:before {
+    content: '';
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+   
+}
+
+
+.modal-9_1 {
+    color: #fff;
+    position: fixed;
+    left: 20%;
+    padding: 30px;
+    top: 0px;
+    overflow: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 1160px;
+    bottom: 4px;
+    background: #000000cc;
+    border: 1px solid #222;
+    border-radius: 13px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+
+@media (max-width:1470px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 979px;
+        left: 14%;
+
+    }
+}
+
+@media (max-width:1250px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 679px;
+        left: 20%;
+
+    }
+}
+
+@media (max-width:990px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 529px;
+        left: 20%;
+
+    }
+
+    .video-container {
+        height: 243px;
+    }
+
+    iframe {
+        height: 441px;
+    }
+
+    .sect__text {
+        width: 100%;
+    padding: 0;
+    }
+
+
+
+    .sect__text ul li {
+        padding-bottom: 8px;
+        line-height: 1;
+    }
+}
+
+@media (max-width:708px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 395px;
+        left: 20%;
+
+    }
+
+    iframe {
+        height: 304px;
+    }
+
+    .sect__text2 {
+        margin: 0 auto;
+        max-width: 579px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .konfig__cent h1 {
+        font-size: 36px;
+        max-width: 578px;
+    }
+
+    .test__ct {
+        font-size: 18px;
+        padding: 54px 0 21px 0;
+    }
+
+    .eko p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:550px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 395px;
+        left: 8%;
+    }
+}
+
+@media (max-width:420px) {
+    .popup,
+    .modal-2_1,
+    .modal-3_1,
+    .modal-4_1,
+    .modal-5_1,
+    .modal-6_1,
+    .modal-7_1,
+    .modal-8_1,
+    .modal-9_1 {
+        max-width: 295px;
+
+    }
+}
+
+
+
+
+
+
+

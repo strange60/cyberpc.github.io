@@ -1,0 +1,99 @@
+.main {
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+    background: #000;
+}
+
+
+
+/*Стили для слайдеров*/
+.sl__slide1 {
+    position: relative;
+    margin: 0 15px;
+
+      outline: 0;
+  transition: .3s;
+}
+
+.sl__text {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-shadow: 4px 2px 9px black;
+}
+
+.sl__desc {
+    text-align: center;
+
+}
+
+
+.sl__slide1 img {
+    max-width: 100%;
+}
+
+.slick-slide:not(.slick-center) {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+
+.sl__slide {
+    position: relative;
+}
+
+.sl {
+    width: 100%;
+    height: 100%;
+}
+
+.sl2 {
+    width: 100%;
+    height: 100%;
+}
+
+.sl2 img {
+    width: 100px;
+}
+
+.sl__slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.sl .slick-dots {
+    bottom: 21px;
+}
+
+.slid {
+    width: 100%;
+    background: #000;
+    padding-bottom: 34px;
+}
+
+
+/**/
+
+.sl__slide5 {
+    position: relative;
+    margin: 0 20px;
+    outline: 0;
+    transition: .3s;
+}
+
+.main5 {
+    max-width: 1536px;
+    padding: 0;
+    width: 100%;
+}
+
+.sl__slide5 img {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.sl__slide5 img: {
+    border: 1px solid red;
+}
